@@ -9,7 +9,7 @@ if(!Object.Myassign){
             let source = sources[i];
             if(source != null){
                 for(let i in source){
-                    if(Object.prototype.hasOwnProperty.call(source,i)){
+                    ifif (source.hasOwnProperty(i)){
                         target[i] = source[i];
                     }
                 }
