@@ -9,7 +9,7 @@ if(!Object.Myassign){
             let source = sources[i];
             if(source != null){
                 for(let i in source){
-                    ifif (source.hasOwnProperty(i)){
+                    if (source.hasOwnProperty(i)){
                         target[i] = source[i];
                     }
                 }
