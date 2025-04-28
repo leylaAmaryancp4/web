@@ -1,6 +1,6 @@
 if(!Array.isMyArray){
     Array.isMyArray = function(value){
-        return Object.prototype.toString.call(value) === "[object Array]";
+        return value instanceof Array;
     }
 }
 
